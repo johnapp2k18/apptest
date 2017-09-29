@@ -32,13 +32,40 @@
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <style type="text/css">
+            * {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#FFFFFF;
+    width:100%;
+	padding:0px;
+	margin:0px;
+}
+.app{
+	width:100%;
+	height:100px;
+	float:left;
+	background:#39bf18;
+}
+.appInn {
+    width: 100%;
+    height: 45px;
+    float: left;
+    background: #f3f3f3;
+    border-bottom: 1px solid #e0e0e0;
+}
+        </style>
         <title>John App</title>
     </head>
     <body>
         <div class="app">
-            <img src="http://icons.iconarchive.com/icons/tinylab/android-lollipop-apps/128/DrawIt-icon.png" />
         </div>
+		<div class="appInn"></div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>
