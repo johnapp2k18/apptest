@@ -31,9 +31,6 @@
         <variable name="IOS_FOREGROUND_ALERT_TYPE" value="BANNER" />
         <variable name="ANDROID_FOREGROUND_PUSH" value="false" />
     </plugin>
-    <gap:config-file platform="android" parent="/manifest">
-        <application android:theme="@android:style/Theme.NoTitleBar"></application>
-    </gap:config-file>
     <icon src="icon-96-xhdpi.png" />
     <icon src="icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
     <icon src="icon-48-mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
