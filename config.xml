@@ -32,10 +32,6 @@
         <variable name="ANDROID_FOREGROUND_PUSH" value="false" />
     </plugin>
     <icon src="icon-96-xhdpi.png" />
-    <icon src="icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
-    <icon src="icon-48-mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
-    <icon src="icon-72-hdpi.png"   gap:platform="android"    gap:qualifier="hdpi" />
-    <icon src="icon-96-xhdpi.png"  gap:platform="android"    gap:qualifier="xhdpi" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
