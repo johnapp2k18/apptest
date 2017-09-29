@@ -34,6 +34,11 @@
     <gap:config-file platform="android" parent="/manifest">
         <application android:theme="@android:style/Theme.NoTitleBar"></application>
     </gap:config-file>
+    <icon src="icon-96-xhdpi.png" />
+    <icon src="icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
+    <icon src="icon-48-mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
+    <icon src="icon-72-hdpi.png"   gap:platform="android"    gap:qualifier="hdpi" />
+    <icon src="icon-96-xhdpi.png"  gap:platform="android"    gap:qualifier="xhdpi" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
